@@ -1,6 +1,6 @@
 import mysql from "mysql2/promise";
 
-const urlDB = `mysql://${process.env.MYSQLSUSER}:${process.env.MYSQLPASSWORD}@${process.env.MYSQLHOST}:${process.env.MYSQLPORT}/${process.enMYSQLDATABASE}`;
+const urlDB = `mysql://${process.env.MYSQLUSER}:${process.env.MYSQLPASSWORD}@${process.env.MYSQLHOST}:${process.env.MYSQLPORT}/${process.env.MYSQLDATABASE}`;
 
 const db = mysql.createPool(urlDB);
 
