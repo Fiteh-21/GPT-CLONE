@@ -1,9 +1,5 @@
 {
   "type": "module",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  },
   "dependencies": {
     "@google/genai": "^2.6.0",
     "cors": "^2.8.6",
